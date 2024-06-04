@@ -12,7 +12,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # Ekspos port
-EXPOSE 3100
+EXPOSE 8080
 
 # Jalankan aplikasi
 CMD ["python", "dior.py"]
